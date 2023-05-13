@@ -1,0 +1,107 @@
+
+<!--Container -->
+<div class="mx-auto bg-grey-400">
+  <!--Screen-->
+  <div class="min-h-screen flex flex-col">
+    <!--Header Section Starts Here-->
+    <header class="bg-nav">
+      <div class="flex justify-between">
+        <div class="p-1 mx-3 inline-flex items-center">
+          <i class="fas fa-bars pr-2 text-white" onclick="sidebarToggle()"></i>
+          <h1 class="text-white p-2">Logo</h1>
+        </div>
+        <div class="p-1 flex flex-row items-center">
+          <a routerLink="/login" class="text-white p-2 mr-2 no-underline hidden md:block lg:block">Login</a>
+
+        </div>
+      </div>
+    </header>
+    <!--/Header-->
+
+    <div class="flex flex-1">
+      <!--Main-->
+      <main class="bg-white-300 flex-1 p-3 overflow-hidden">
+        <div class="flex flex-col">
+          <div class="flex flex-1 flex-col md:flex-row lg:flex-row mx-2">
+              <div class="flex flex-col">
+                <div class="flex flex-1 flex-col md:flex-row lg:flex-row mx-2">
+                  <div class="p-4 flex flex-col">
+                    <img  src="./assets/img/images.png " width="180" height="70" alt="">
+                  </div>
+                </div>
+            </div>
+
+
+            <div class=" mb-2 p-2 md:w-1/1 mx-3">
+              <div class="p-8 flex flex-col">
+                <a style="color:green; font-size:50px;"><b>PBZ ISLAMIC BANKING </b><br>
+                </a>
+                <a style="text-align:center; font-size:20px" ><b>BENKI YA WATU WA ZANZIBAR <br></b></a>
+                <a style="text-align:center;"><i>(Incorporated in Zanzibar, Tanzania)</i> </a>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- /Stats Row Ends Here -->
+
+          <!-- Card Sextion Starts Here -->
+          <div class="flex flex-1 flex-col md:flex-row lg:flex-row mx-2">
+
+          </div>
+          <div class="flex flex-1 flex-col md:flex-row lg:flex-row mx-2 p-1 mt-2 mx-auto lg:mx-2 md:mx-2 justify-between">
+         
+            <div class="rounded rounded-t-lg overflow-hidden shadow max-w-xs my-3">
+              <img src="./assets/img/hous.jpg " alt="" class="w-full"/>
+              <div class="flex justify-center mt-8">
+                
+                     
+              </div>
+              <div class="text-center px-3 pb-6 pt-2">
+                
+                <h3 class="text-black text-sm bold font-sans"><a routerLink="./customerdash">Loan Request</a></h3>
+                <p class="mt-2 font-sans font-light text-grey-700">Here ! Apply Loan Request For New Applicants</p>
+              </div>
+              <div class="flex justify-center pb-3 text-grey-dark">
+                
+                
+              </div>
+            </div>
+            <!--Top user 2-->
+            <div class="rounded rounded-t-lg overflow-hidden shadow max-w-xs my-3">
+              <img src="./assets/img/lipa.jpg " alt="" class="w-full"/>
+              <div class="flex justify-center mt-8">
+              
+                     
+              </div>
+              <div class="text-center px-3 pb-6 pt-2">
+                <h3 class="text-black text-sm bold font-sans"><a routerLink="/payment">Payments</a></h3>
+                <p class="mt-2 font-sans font-light text-grey-dark">Make your Payment</p>
+              </div>
+              <div class="flex justify-center pb-3 text-grey-dark">
+                
+                
+              </div>
+            </div>
+            <!--Top user 3-->
+            <div class="rounded rounded-t-lg overflow-hidden shadow max-w-xs my-3">
+              <img src="./assets/img/mubarah.jpg " alt="" class="w-full"/>
+              
+              <div class="text-center px-3 pb-6 pt-2">
+                <h3 class="text-black text-sm bold font-sans"><a routerLink="/about">More Information</a> </h3>
+                <p class="mt-2 font-sans font-light text-grey-dark">More Information About Our </p>
+              </div>
+             
+            </div>
+          </div>
+        </div>
+        
+      </main>
+    </div>
+    <footer class="bg-grey-darkest text-white p-2">
+      <div class="flex flex-1 mx-auto">&copy; My Design</div>
+    </footer>
+
+  </div>
+
+</div>

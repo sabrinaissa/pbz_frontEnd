@@ -1,0 +1,111 @@
+
+<div class="mx-auto bg-grey-400">
+    <!--Screen-->
+    <div class="min-h-screen flex flex-col">
+      <!--Header Section Starts Here-->
+      <header class="bg-nav">
+        <div class="flex justify-between">
+          <div class="p-1 mx-3 inline-flex items-center">
+            <i class="fas fa-bars pr-2 text-white" onclick="sidebarToggle()"></i>
+            <h1 class="text-white p-2">Logo</h1>
+          </div>
+          <div class="p-1 flex flex-row items-center">
+            <a href="https://github.com/tailwindadmin/admin" class="text-white p-2 mr-2 no-underline hidden md:block lg:block">Github</a>
+  
+  
+            
+            <div id="ProfileDropDown" class="rounded hidden shadow-md bg-white absolute pin-t mt-12 mr-1 pin-r">
+              <ul class="list-reset">
+                <li><a href="#" class="no-underline px-4 py-2 block text-black hover:bg-grey-light">My account</a></li>
+                <li><a href="#" class="no-underline px-4 py-2 block text-black hover:bg-grey-light">Notifications</a></li>
+                <li><hr class="border-t mx-2 border-grey-ligght"></li>
+                <li><a href="#" class="no-underline px-4 py-2 block text-black hover:bg-grey-light">Logout</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!--/Header-->
+  
+      <div class="flex flex-1">
+        <!--Sidebar-->
+        <aside id="sidebar" class="bg-side-nav w-1/2 md:w-1/6 lg:w-1/6 border-r border-side-nav hidden md:block lg:block">
+  
+          <ul class="list-reset flex flex-col">
+            <li class=" w-full h-full py-3 px-2 border-b border-light-border bg-white">
+              <a href="index.html"
+                 class="font-sans font-hairline hover:font-normal text-sm text-nav-item no-underline">
+                <i class="fas fa-tachometer-alt float-left mx-2"></i>
+                Dashboard
+                <span><i class="fas fa-angle-right float-right"></i></span>
+              </a>
+            </li>
+            <li class="w-full h-full py-3 px-2 border-b border-light-border">
+              <a routerLink="/loanform"
+                 class="font-sans font-hairline hover:font-normal text-sm text-nav-item no-underline">
+                <i class="fab fa-wpforms float-left mx-2"></i>
+                 <a routerLink="/login">Apply Loan</a>
+                <span><i class="fa fa-angle-right float-right"></i></span>
+              </a>
+            </li>
+            <li class="w-full h-full py-3 px-2 border-b border-light-border">
+              <a routerLink="/activate"
+                 class="font-sans font-hairline hover:font-normal text-sm text-nav-item no-underline">
+                <i class="fas fa-grip-horizontal float-left mx-2"></i>
+                Activate Account
+                <span><i class="fa fa-angle-right float-right"></i></span>
+              </a>
+            </li>
+            <li class="w-full h-full py-3 px-2 border-b border-light-border">
+              <a href="tables.html"
+                 class="font-sans font-hairline hover:font-normal text-sm text-nav-item no-underline">
+                <i class="fas fa-table float-left mx-2"></i>
+                Tables
+                <span><i class="fa fa-angle-right float-right"></i></span>
+              </a>
+            </li>
+  
+  
+              </ul>
+            
+  
+        </aside>
+        <main class="bg-white-300 flex-1 p-3 overflow-hidden">
+  
+          <div class="flex flex-col">
+            <div class=" mb-2 p-2 md:w-1/1 mx-3">
+              <div class="p-2 flex flex-col">
+                <a style="color:green; text-align:center; font-size:30px;"><b>PBZ IKHLAS </b><br>
+                </a>
+                <a style="text-align:center; font-size:20px" ><b>Banking Facility Application Form <br></b></a>
+              </div>
+            </div>
+  
+            <div class="flex flex-1 flex-col md:flex-row lg:flex-row mx-2">
+  
+            </div>
+            <div class="flex flex-1 flex-col md:flex-row lg:flex-row mx-2">
+  
+              <div class="flex flex-1  flex-col md:flex-row lg:flex-row mx-2">
+                kjlhdsaf
+              <!-- /card -->
+  
+            </div>
+            <!-- /Cards Section Ends Here -->
+            </div>
+          </div>
+        </main>
+        
+        
+      </div>
+      
+      <footer class="bg-grey-darkest text-white p-2">
+        <div class="flex flex-1 mx-auto">&copy; My Design</div>
+      </footer>
+      <!--/footer-->
+  
+    </div>
+  
+  </div>
+  <script src="./main.js"></script>
+  
